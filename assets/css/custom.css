@@ -99,6 +99,14 @@
   }
 }
 
+/* ===== TRUSTED BRANDS HEADING ===== */
+.testimonial1-section-area .testimonial-header h4 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: var(--ztc-weight-semibold);
+  margin-bottom: 32px;
+}
+
 /* ===== ABOUT ICON BOX ===== */
 .about-icon-box {
   width: 68px;
