@@ -99,6 +99,16 @@
   }
 }
 
+/* ===== BLOG EQUAL HEIGHT ===== */
+.blog1-section-area .row {
+  align-items: stretch;
+}
+.blog1-section-area .col-lg-4,
+.blog1-section-area .col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ===== TRUSTED BRANDS HEADING ===== */
 .testimonial1-section-area .testimonial-header h4 {
   color: #ffffff;
