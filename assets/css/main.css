@@ -2595,7 +2595,7 @@ Location:
 }
 .service1-section-area .service-boxs-area {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   position: relative;
 }
@@ -2606,8 +2606,9 @@ Location:
 }
 .service1-section-area .service-boxs-area .elements19 {
   position: absolute;
-  top: 35px;
-  left: 18%;
+  top: 30px;
+  left: 25%;
+  width: 140px;
 }
 @media (max-width: 767px) {
   .service1-section-area .service-boxs-area .elements19 {
@@ -2621,8 +2622,9 @@ Location:
 }
 .service1-section-area .service-boxs-area .elements20 {
   position: absolute;
-  top: 0;
-  right: 21%;
+  top: 30px;
+  left: 65%;
+  width: 140px;
 }
 @media (max-width: 767px) {
   .service1-section-area .service-boxs-area .elements20 {
@@ -2663,7 +2665,7 @@ Location:
   margin-bottom: 24px;
 }
 .service1-section-area .service-boxs-area .service-boxarea .content a {
-  color: var(--ztc-text-text-3);
+  color: #000000;
   text-align: center;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s24);
@@ -2688,24 +2690,52 @@ Location:
   line-height: 24px;
 }
 .service1-section-area .service-boxs-area .service-boxarea .content .readmore {
-  color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
   font-weight: var(--ztc-weight-bold);
-  line-height: 16px;
   display: inline-block;
   margin-bottom: 0;
   margin-top: 24px;
   transition: all 0.4s;
+  background: var(--ztc-text-text-3);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 12px 20px;
+  position: relative;
 }
 .service1-section-area
   .service-boxs-area
   .service-boxarea
   .content
   .readmore:hover {
-  color: var(--ztc-bg-bg-2);
+  color: var(--ztc-text-text-3);
   transition: all 0.4s;
+}
+.service1-section-area
+  .service-boxs-area
+  .service-boxarea
+  .content
+  .readmore:hover::after {
+  top: 0;
+  left: 0;
+  transition: all 0.4s;
+}
+.service1-section-area
+  .service-boxs-area
+  .service-boxarea
+  .content
+  .readmore::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  left: 4px;
+  transition: all 0.4s;
+  top: -4px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  z-index: -1;
 }
 .service1-section-area
   .service-boxs-area
@@ -2713,6 +2743,7 @@ Location:
   .content
   .readmore
   i {
+  margin-left: 4px;
   transform: rotate(-45deg);
   transition: all 0.4s;
 }

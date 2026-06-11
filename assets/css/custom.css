@@ -1,3 +1,15 @@
+/* ===== SERVICE SECTION ===== */
+.service1-section-area .mt-service-row {
+  margin-top: 50px;
+}
+
+
+.service1-section-area .service-boxs-area .service-boxarea .icons i {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 60px;
+}
+
 /* ===== ABOUT ICON BOX ===== */
 .about-icon-box {
   width: 68px;
