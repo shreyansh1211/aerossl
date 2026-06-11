@@ -4584,9 +4584,11 @@ Location:
   z-index: 1;
   background: var(--ztc-text-text-2);
   background-image: url("/assets/img/bg/aero_banner.png");
-  padding: 160px 0 100px;
+  padding: 82px 0 0;
   overflow: hidden;
   height: 100vh;
+  display: flex;
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
