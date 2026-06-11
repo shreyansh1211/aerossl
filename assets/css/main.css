@@ -8178,6 +8178,15 @@ html {
   .main-menu
   ul
   li
+  a.nav-link.active {
+  color: var(--ztc-text-text-3) !important;
+}
+.homepage1-body
+  .header-area.homepage1.single-page1
+  .header-elements
+  .main-menu
+  ul
+  li
   a.nav-link.active::after {
   width: 50% !important;
 }
@@ -8483,7 +8492,7 @@ html {
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s18);
   font-weight: var(--ztc-weight-medium);
-  color: var(--ztc-text-text-3);
+  color: #000000;
   line-height: var(--ztc-font-size-font-s18);
   display: block;
   transition: all 0.4s;
@@ -8535,7 +8544,7 @@ html {
   li:hover
   > a {
   transition: all 0.4s;
-  color: var(--ztc-text-text-2) !important;
+  color: var(--ztc-text-text-3) !important;
 }
 .homepage1-body
   .header-area.homepage1
