@@ -99,6 +99,11 @@
   }
 }
 
+/* ===== BLOG SECTION ===== */
+.blog1-section-area.sp2 {
+  padding-bottom: 0;
+}
+
 /* ===== BLOG EQUAL HEIGHT ===== */
 .blog1-section-area .row {
   align-items: stretch;
@@ -107,6 +112,38 @@
 .blog1-section-area .col-md-6 {
   display: flex;
   flex-direction: column;
+}
+
+/* ===== CONTACT SECTION ICONS ===== */
+.contact-main-inner-area .contact-header .number-address-area .phone-number .img1 i {
+  font-size: 22px;
+  color: var(--ztc-bg-bg-2);
+  line-height: 60px;
+}
+.contact-main-inner-area .contact-header .number-address-area .phone-number:hover .img1 i {
+  color: #ffffff;
+}
+.contact-main-inner-area .contact-header .view-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--ztc-text-text-3);
+  color: #ffffff;
+  font-family: var(--ztc-family-font1);
+  font-size: 16px;
+  font-weight: var(--ztc-weight-semibold);
+  padding: 14px 24px;
+  border-radius: 4px;
+  transition: all 0.4s;
+  position: relative;
+}
+.contact-main-inner-area .contact-header .view-map-btn:hover {
+  background: var(--ztc-bg-bg-2);
+  color: #ffffff;
+}
+.contact-main-inner-area .contact-header .view-map-btn .fa-arrow-right {
+  font-size: 13px;
+  transform: rotate(-45deg);
 }
 
 /* ===== TRUSTED BRANDS HEADING ===== */
