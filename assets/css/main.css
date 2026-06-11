@@ -1727,6 +1727,11 @@ Location:
 }
 
 /*============= ABOUT CSS AREA ===============*/
+.about-img-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .about1-section-area .about-images img {
   height: 100%;
   width: 100%;
@@ -1759,7 +1764,10 @@ Location:
 }
 @media (max-width: 767px) {
   .about1-section-area .about-content-area .counter-area {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 .about1-section-area .about-content-area .counter-area:hover .counter-box h2 {
