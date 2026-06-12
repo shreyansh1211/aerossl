@@ -99,6 +99,36 @@
   }
 }
 
+/* ===== FAQ SECTION (Home Page) ===== */
+#faq.faq-section-area {
+  background: var(--ztc-bg-bg-6);
+}
+
+#faq .faq-author-area .accordion .accordion-item {
+  background: var(--ztc-bg-bg-2);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+#faq .faq-author-area .accordion .accordion-item .accordion-header button {
+  background: #ffffff !important;
+  color: var(--ztc-text-text-10);
+}
+
+#faq .faq-author-area .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background: transparent !important;
+  color: #ffffff;
+}
+
+#faq .faq-author-area .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+#faq .faq-author-area .accordion .accordion-item .accordion-body {
+  color: #ffffff;
+  opacity: 1;
+}
+
 /* ===== BLOG SECTION ===== */
 .blog1-section-area.sp2 {
   padding-bottom: 0;
