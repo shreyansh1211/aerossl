@@ -197,7 +197,82 @@
   margin-bottom: 32px;
 }
 
+/* ===== SERVICE3-INNER CAROUSEL - WHITE CARD BOXES ===== */
+.service3-inner-section-area .service-carousel-area .service-card-box {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px 24px 28px;
+  text-align: center;
+  transition: all 0.4s;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box:hover {
+  box-shadow: 0 12px 40px rgba(0, 37, 247, 0.14);
+  transform: translateY(-4px);
+}
+.service3-inner-section-area .service-carousel-area .service-card-box .icons {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background: var(--ztc-bg-bg-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  transition: all 0.4s;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box .icons i {
+  font-size: 26px;
+  color: #ffffff;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box:hover .icons {
+  background: var(--ztc-text-text-3);
+}
+.service3-inner-section-area .service-carousel-area .service-card-box .content a:first-child {
+  color: #000000;
+  font-family: var(--ztc-family-font1);
+  font-size: var(--ztc-font-size-font-s20);
+  font-weight: var(--ztc-weight-semibold);
+  display: block;
+  margin-bottom: 12px;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box:hover .content a:first-child {
+  color: #000000;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box .content p {
+  color: var(--ztc-text-text-4);
+  font-family: var(--ztc-family-font1);
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box .content .readmore {
+  color: var(--ztc-bg-bg-2);
+  font-family: var(--ztc-family-font1);
+  font-size: 14px;
+  font-weight: var(--ztc-weight-semibold);
+  transition: all 0.4s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.service3-inner-section-area .service-carousel-area .service-card-box:hover .content .readmore {
+  gap: 10px;
+  color: var(--ztc-text-text-3);
+}
+
+/* ===== OUR MISSION - BIG IMAGE BORDER RADIUS ===== */
+.about3-inner-section-area .about-images-area .img1 img {
+  border-radius: 20px !important;
+  object-fit: cover;
+}
+
 /* ===== ABOUT INNER PAGE - SVG ICON BOX ===== */
+@media (max-width: 991px) {
+  .about-inner-section-area .about-content-area .about-boxarea .icons {
+    margin: 0 auto;
+  }
+}
 .about-inner-section-area .about-content-area .about-boxarea .icons {
   display: flex;
   align-items: center;
