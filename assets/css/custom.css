@@ -1,3 +1,8 @@
+/* ===== H5 SHIELD ICON SPACING ===== */
+h5 .fa-shield-halved {
+  margin-right: 8px;
+}
+
 /* ===== SERVICE SECTION ===== */
 .service1-section-area .mt-service-row {
   margin-top: 50px;
