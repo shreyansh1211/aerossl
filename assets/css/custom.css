@@ -101,6 +101,17 @@
   }
 }
 
+/* ===== PRELOADER LOGO ===== */
+#loading-icon {
+  width: 110px;
+  height: auto;
+}
+#loading-icon img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 /* ===== FAQ SECTION (Home Page) ===== */
 #faq.faq-section-area {
   background: var(--ztc-bg-bg-6);
