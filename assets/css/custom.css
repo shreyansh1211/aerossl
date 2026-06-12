@@ -261,6 +261,19 @@
   color: var(--ztc-text-text-3);
 }
 
+/* ===== ABOUT PAGE - WHY CHOOSE SECTION ON GREEN BG ===== */
+.about-inner-section-area ~ .solutions-section-area .solutions-header h5,
+.solutions-section-area[style*="ztc-text-text-3"] .solutions-header h5 {
+  color: #ffffff;
+}
+.solutions-section-area[style*="ztc-text-text-3"] .solutions-header h2,
+.solutions-section-area[style*="ztc-text-text-3"] .solutions-header h2 span {
+  color: #ffffff !important;
+}
+.solutions-section-area[style*="ztc-text-text-3"] .solutions-header p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 /* ===== OUR MISSION - BIG IMAGE BORDER RADIUS ===== */
 .about3-inner-section-area .about-images-area .img1 img {
   border-radius: 20px !important;
