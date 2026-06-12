@@ -1152,7 +1152,7 @@ Location:
   transform: rotate(-45deg);
 }
 .header-btn1:hover {
-  color: var(--ztc-text-text-3);
+  color: var(--ztc-text-text-1);
   transition: all 0.4s;
 }
 .header-btn1:hover::after {
@@ -2709,7 +2709,7 @@ Location:
   .service-boxarea
   .content
   .readmore:hover {
-  color: var(--ztc-text-text-3);
+  color: #ffffff;
   transition: all 0.4s;
 }
 .service1-section-area
