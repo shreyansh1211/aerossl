@@ -308,6 +308,74 @@
   color: #ffffff;
 }
 
+/* ===== BLOG RIGHT PAGE FIXES ===== */
+
+/* Fix divider position — now only 2 items remain (date + category) */
+.blog-single-inner-area .blog-auhtor-area ul li:first-child::after {
+  top: 4px;
+}
+
+/* Recent blog titles — black */
+.blog-single-inner-area .blog-left-area .recent-blogs-area .recent-boxarea .content a:not(.date) {
+  color: #000 !important;
+}
+
+/* lista-area ul li — neutral color */
+.blog-single-inner-area .blog-right-single-area .lista-area ul li {
+  color: #50595a !important;
+}
+
+/* Post Tags and Social Share — neutral color */
+.blog-single-inner-area .blog-right-single-area .post-share-area .posts ul li,
+.blog-single-inner-area .blog-right-single-area .post-share-area .posts ul li a,
+.blog-single-inner-area .blog-right-single-area .post-share-area .share ul li,
+.blog-single-inner-area .blog-right-single-area .post-share-area .share ul li a {
+  color: #50595a !important;
+}
+
+/* Author bio section */
+.blog-author-bio {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  background: var(--ztc-bg-bg-6);
+  border-radius: 8px;
+  padding: 32px;
+  margin: 40px 0;
+  border-left: 4px solid var(--ztc-text-text-3);
+}
+.blog-author-bio .author-logo {
+  width: 80px;
+  min-width: 80px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.blog-author-bio .author-logo img {
+  width: 100%;
+  height: auto;
+}
+.blog-author-bio .author-info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+.blog-author-bio .author-info span {
+  font-size: 14px;
+  color: var(--ztc-text-text-3);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+.blog-author-bio .author-info p {
+  font-size: 15px;
+  color: #50595a;
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* ===== ABOUT ICON BOX ===== */
 .about-icon-box {
   width: 68px;
