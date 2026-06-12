@@ -197,6 +197,29 @@
   margin-bottom: 32px;
 }
 
+/* ===== ABOUT INNER PAGE - SVG ICON BOX ===== */
+.about-inner-section-area .about-content-area .about-boxarea .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.06);
+  transition: all 0.4s;
+}
+.about-inner-section-area .about-content-area .about-boxarea:hover .icons {
+  background: var(--ztc-text-text-2);
+}
+.about-inner-section-area .about-content-area .about-boxarea .icons svg {
+  color: #000000;
+  transition: all 0.4s;
+}
+.about-inner-section-area .about-content-area .about-boxarea:hover .icons svg {
+  color: #ffffff;
+}
+
 /* ===== ABOUT ICON BOX ===== */
 .about-icon-box {
   width: 68px;
