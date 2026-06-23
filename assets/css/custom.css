@@ -108,7 +108,7 @@ h5 .fa-shield-halved {
 
 /* ===== PRELOADER LOGO ===== */
 #loading-icon {
-  width: 110px;
+  width: 250px;
   height: auto;
 }
 #loading-icon img {
@@ -379,6 +379,11 @@ h5 .fa-shield-halved {
   color: #50595a;
   line-height: 1.7;
   margin: 0;
+}
+
+/* ===== HERO INNER - TITLE & BREADCRUMB PUSH DOWN ===== */
+.hero-inner-section-area .hero-main-area {
+  margin-top: 40px;
 }
 
 /* ===== ABOUT ICON BOX ===== */
