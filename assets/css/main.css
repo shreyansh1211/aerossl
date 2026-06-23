@@ -8579,7 +8579,7 @@ html {
   li:hover
   > a {
   transition: all 0.4s;
-  color: var(--ztc-text-text-3) !important;
+  color: var(--ztc-text-text-3);
 }
 .homepage1-body
   .header-area.homepage1

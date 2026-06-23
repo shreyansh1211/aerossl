@@ -45,7 +45,7 @@
     var navItems = document.querySelectorAll('.mobile-nav li');
     navItems.forEach(function (item) {
       var sub = item.querySelector('ul');
-      if (sub) {
+      if (sub && !item.classList.contains('mobile-has-dropdown')) {
         item.classList.add('has-sub');
         var btn = document.createElement('span');
         btn.className = 'submenu-button';
@@ -65,9 +65,23 @@
     });
   }
 
+  function initMobileServicesDropdown() {
+    var toggle = document.querySelector('.mobile-dropdown-toggle');
+    var dropdown = document.querySelector('.mobile-services-dropdown');
+    if (!toggle || !dropdown) return;
+
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      var parent = toggle.closest('.mobile-has-dropdown');
+      parent.classList.toggle('open');
+      dropdown.classList.toggle('open');
+    });
+  }
+
   loadComponent('header.html', 'site-header', function () {
     initStickyHeader();
     initMobileMenu();
+    initMobileServicesDropdown();
   });
   loadComponent('footer.html', 'site-footer');
 })();
