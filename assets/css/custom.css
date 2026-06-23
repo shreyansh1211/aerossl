@@ -1,5 +1,31 @@
+/* ===== SERVICES NAV ARROW ===== */
+.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li.menu-item-has-children > a::after {
+  content: "\f107" !important;
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  margin-left: 6px !important;
+  display: inline-block !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  background: none !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: transform 0.3s !important;
+  color: inherit !important;
+}
+
+.homepage1-body .header-area.homepage1 .header-elements .main-menu ul li.menu-item-has-children:hover > a::after {
+  transform: rotate(180deg) !important;
+  width: auto !important;
+}
+
 /* ===== SERVICES DROPDOWN ===== */
-ul.services-dropdown {
+.main-menu .sub-menu {
+  display: block !important;
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -16,19 +42,20 @@ ul.services-dropdown {
   z-index: 999;
   list-style: none;
   margin: 0;
+  margin-top: 10px;
 }
 
-.main-menu ul li:hover > ul.services-dropdown {
+.main-menu ul li.menu-item-has-children:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
   transform: scaleY(1);
 }
 
-ul.services-dropdown li {
+.main-menu .sub-menu li {
   display: block !important;
 }
 
-ul.services-dropdown li a {
+.main-menu .sub-menu li a {
   display: block !important;
   color: #ffffff !important;
   font-size: 16px !important;
@@ -39,11 +66,11 @@ ul.services-dropdown li a {
   border-radius: 0 !important;
 }
 
-ul.services-dropdown li a::after {
+.main-menu .sub-menu li a::after {
   display: none !important;
 }
 
-ul.services-dropdown li a:hover {
+.main-menu .sub-menu li a:hover {
   color: #ffffff !important;
   background: rgba(255, 255, 255, 0.15) !important;
   padding-left: 28px !important;
